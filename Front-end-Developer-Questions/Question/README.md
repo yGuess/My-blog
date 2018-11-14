@@ -21,14 +21,21 @@
 ## <a name='html'>HTML</a>
 
 - Doctype作用？严格模式与混杂模式如何区分？它们有何意义?
+告诉浏览器页面渲染的模式
 
 - HTML5 为什么只需要写 <!DOCTYPE HTML>？
+html4.0.1之前是基于sgml的，需要引入DTD，告诉浏览器解析页面的格式。html5不再基于sgml，故不再需要引用DTD
 
 - 行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？
+行内：span img label 
+块级：div p ul li ol header footer aside article
+空元素： hr br input img 
 
 - 页面导入样式时，使用link和@import有什么区别？
+link用于页面定位网络资源位置，不仅可以定位css文件  @import则只能在css文件中使用，且只能引用css样式，且只会在当前文件下载成功后执行
 
 - 介绍一下你对浏览器内核的理解？
+js引擎和渲染引擎
 
 - 常见的浏览器内核有哪些？
 
